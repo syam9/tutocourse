@@ -190,7 +190,7 @@ class _SigninPageState extends State<SigninPage> {
                                               children: <Widget>[
                                                 Checkbox(
                                                     activeColor: NowUIColors.orangenavi,
-                                                    onChanged: (bool? newValue) {
+                                                    onChanged: (bool newValue) {
                                                       if (newValue != null) {
                                                         setState(() {
                                                           _checkboxValue = newValue;

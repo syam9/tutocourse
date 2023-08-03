@@ -134,7 +134,7 @@ class _MyCoursePage extends State<MyCoursePage> {
   }
 }
 
-kotak({String? nombo, String? title}) {
+kotak({String nombo, String title}) {
   return Row(
     children: [
       Container(
@@ -170,7 +170,7 @@ kotak({String? nombo, String? title}) {
   );
 }
 
-kotak1({String? nombo, String? title}) {
+kotak1({String nombo, String title}) {
   return Row(
     children: [
       Container(
